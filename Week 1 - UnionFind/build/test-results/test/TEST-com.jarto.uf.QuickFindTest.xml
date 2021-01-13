@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jarto.uf.QuickFindTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-13T22:03:10" hostname="DESKTOP-QPPQ26N" time="0.018">
+  <properties/>
+  <testcase name="Union_ConnectsComponents_SubsetsAreMerged()" classname="com.jarto.uf.QuickFindTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
