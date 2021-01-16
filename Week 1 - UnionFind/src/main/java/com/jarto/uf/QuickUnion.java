@@ -43,11 +43,6 @@ public class QuickUnion implements UnionFind {
     }
 
     @Override
-    public int find(int p) {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
     public int count() {
         var set = new HashSet<Integer>();
         for (int i = 0; i < ids.length; i++) {
@@ -56,7 +51,7 @@ public class QuickUnion implements UnionFind {
         return set.size();
     }
 
-    private int root(int p) {
+    public int root(int p) {
         while(p != ids[p]) p = ids[p];
         return p;
     }

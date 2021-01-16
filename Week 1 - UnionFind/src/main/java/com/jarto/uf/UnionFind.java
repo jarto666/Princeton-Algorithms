@@ -12,11 +12,6 @@ public interface UnionFind {
     boolean connected(int p, int q);
 
     /**
-     * Component identifier for p (0 to N-1)
-     */
-    int find(int p);
-
-    /**
      * Number of components
      */
     int count();

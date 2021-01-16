@@ -1,6 +1,8 @@
 package com.jarto.uf;
 
 
+import javax.naming.OperationNotSupportedException;
+
 /**
  * Data structure
  * - Integer array id[] of length N
@@ -28,26 +30,17 @@ public class QuickFind implements UnionFind {
 
     @Override
     public void union(int p, int q) {
-        if (p > q) {
-            var tmp = p;
-            p = q;
-            q = tmp;
-        }
-        var originalValue = ids[p];
+        var pid = ids[p];
+        var qid = ids[q];
         for (int i = 0; i < ids.length; i++) {
-            if (ids[q] == ids[i])
-                ids[i] = originalValue;
+            if (pid == ids[i])
+                ids[i] = qid;
         }
     }
 
     @Override
     public boolean connected(int p, int q) {
         return ids[p] == ids[q];
-    }
-
-    @Override
-    public int find(int p) {
-        throw new UnsupportedOperationException();
     }
 
     @Override
