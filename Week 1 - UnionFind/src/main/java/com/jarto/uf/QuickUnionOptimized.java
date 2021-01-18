@@ -1,6 +1,6 @@
 package com.jarto.uf;
 
-import java.util.HashSet;
+import java.util.*;
 
 /**
  * Same Quick-Union Algorithm, but
@@ -55,6 +55,7 @@ public class QuickUnionOptimized implements UnionFind {
 
     @Override
     public boolean connected(int p, int q) {
+        ids = Arrays.stream(ids).distinct().toArray();
         return root(p) == root(q);
     }
 

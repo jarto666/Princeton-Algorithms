@@ -62,7 +62,7 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        In in = new In("input1.txt");      // input file
+        In in = new In("input20.txt");      // input file
         int n = in.readInt();         // n-by-n percolation system
 
         // turn on animation mode
