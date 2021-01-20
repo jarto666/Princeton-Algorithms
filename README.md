@@ -13,5 +13,7 @@ Place where all Data Structures, Algorithms and Programming Assignments of this 
   - [LinkedListStack - Linked list implementation of a Stack](https://github.com/jarto666/Princeton-Algorithms/blob/main/Week%202%20-%20StacksQueues/src/main/java/com/jarto/stacks/LinkedListStack.java)
   - [Elementary Sorts Implementations with Performance tests (Insertion, Selection, Shell)](https://github.com/jarto666/Princeton-Algorithms/tree/main/Week%202%20-%20Elementary%20Sorts/src/main/java/com/jarto/sorts)
   - [Programming Assignment 2. Deque. Randomized Queue](https://github.com/jarto666/Princeton-Algorithms/tree/main/Week%202%20-%20StacksQueues%20-%20Assignment)
+- Week 3. Mergesort and Quicksort.
+  - TBD
 
 [Coursera]: <https://www.coursera.org/learn/algorithms-part1>
