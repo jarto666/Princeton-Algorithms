@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="algs4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.lift/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/checkstyle-lift.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/introcs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/.lift/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/checkstyle-lift.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/introcs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.lift/stdlib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
