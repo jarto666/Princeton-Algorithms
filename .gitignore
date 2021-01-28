@@ -110,3 +110,5 @@
 !**/gradle-wrapper.jar
 
 !*/*.iml
+
+!*/.idea/modules.xml
