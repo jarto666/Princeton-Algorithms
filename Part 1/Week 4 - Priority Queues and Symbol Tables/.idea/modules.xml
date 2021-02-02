@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_4_-_Priority_Queues_and_Symbol_Tables.test.iml" />
+    </modules>
+  </component>
+</project>

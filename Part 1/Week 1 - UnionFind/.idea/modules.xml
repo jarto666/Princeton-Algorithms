@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_UnionFind.test.iml" />
+    </modules>
+  </component>
+</project>
