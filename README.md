@@ -21,5 +21,15 @@ Place where all Data Structures, Algorithms and Programming Assignments of this 
     - [QuickSort](https://github.com/jarto666/Princeton-Algorithms/blob/main/Part%201/Week%203%20-%20MergeSort%20and%20QuickSort/src/main/java/com/jarto/sorts/QuickSort.java)
     - [QuickSelect](https://github.com/jarto666/Princeton-Algorithms/blob/main/Part%201/Week%203%20-%20MergeSort%20and%20QuickSort/src/main/java/com/jarto/sorts/QuickSelect.java)
   - ---------------
+  - Week 4. Priority queues and Symbol Tables.
+    - [Programming Assignment 4. Sliding Puzzle](https://github.com/jarto666/Princeton-Algorithms/tree/main/Part%201/Week%204%20-%20Assignment%20-%208%20Puzzle)
+    - [Priority Queues](https://github.com/jarto666/Princeton-Algorithms/tree/main/Part%201/Week%204%20-%20Priority%20Queues%20and%20Symbol%20Tables/src/main/java/com/jarto/pq)
+      - Ordered Array PQ
+      - Unordered Array PQ
+      - Binary Heap
+      - Heap Sort
+    - [Symbol Tables](https://github.com/jarto666/Princeton-Algorithms/tree/main/Part%201/Week%204%20-%20Priority%20Queues%20and%20Symbol%20Tables/src/main/java/com/jarto/symboltables)
+      - Binary Search Tree
+      - Ordered Symbol Table
 
 [Coursera]: <https://www.coursera.org/learn/algorithms-part1>
