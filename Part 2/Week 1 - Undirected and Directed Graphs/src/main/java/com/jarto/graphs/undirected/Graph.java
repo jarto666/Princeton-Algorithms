@@ -1,19 +1,13 @@
 package com.jarto.graphs.undirected;
 
-import org.graphstream.graph.implementations.MultiGraph;
-import org.graphstream.graph.implementations.SingleGraph;
-import org.graphstream.ui.spriteManager.Sprite;
-import org.graphstream.ui.spriteManager.SpriteManager;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
+@SuppressWarnings("unchecked")
 public class Graph {
 
     private int vertexCount;
@@ -46,7 +40,6 @@ public class Graph {
         while (sc.hasNextLine()) {
             String data = sc.nextLine();
             var c = Arrays.stream(data.split(" ")).mapToInt(Integer::parseInt).toArray();
-//            var c = connection;
             addEdge(c[0], c[1]);
         }
     }
