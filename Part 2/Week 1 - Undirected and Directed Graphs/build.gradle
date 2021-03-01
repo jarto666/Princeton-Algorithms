@@ -1,0 +1,22 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    implementation 'junit:junit:4.12'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.15'
+    compile group: 'org.graphstream', name: 'gs-core', version: '2.0'
+    compile group: 'org.graphstream', name: 'gs-ui-swing', version: '2.0'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

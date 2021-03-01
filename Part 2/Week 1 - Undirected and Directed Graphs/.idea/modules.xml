@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_1_-_Undirected_and_Directed_Graphs.test.iml" />
+    </modules>
+  </component>
+</project>
