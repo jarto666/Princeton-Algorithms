@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week 2 - MST and Shortest Paths.iml" filepath="$PROJECT_DIR$/Week 2 - MST and Shortest Paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Week_2_-_MST_and_Shortest_Paths.test.iml" />
+    </modules>
+  </component>
+</project>
