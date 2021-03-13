@@ -1,7 +1,5 @@
 package com.jarto.common;
 
-import java.util.Arrays;
-
 public class UnionFind {
 
     private int[] ids;

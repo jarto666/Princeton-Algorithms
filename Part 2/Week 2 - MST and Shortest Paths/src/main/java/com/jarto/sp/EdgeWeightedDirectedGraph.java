@@ -1,4 +1,6 @@
-package com.jarto.mst;
+package com.jarto.sp;
+
+import com.jarto.mst.Edge;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,21 +13,21 @@ import java.util.stream.Collectors;
 import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;
 
-public class EdgeWeightedGraph {
+public class EdgeWeightedDirectedGraph {
 
     private int edgeCount;
     private int vertexCount;
-    private List<Edge>[] edges;
+    private List<EdgeDirected>[] edges;
 
-    public EdgeWeightedGraph(int vertexCount) {
+    public EdgeWeightedDirectedGraph(int vertexCount) {
         this.vertexCount = vertexCount;
-        edges = (LinkedList<Edge>[])new LinkedList[vertexCount];
+        edges = (LinkedList<EdgeDirected>[])new LinkedList[vertexCount];
         for (int i = 0; i < vertexCount; i++) {
             edges[i] = new LinkedList<>();
         }
     }
 
-    public EdgeWeightedGraph(File file) {
+    public EdgeWeightedDirectedGraph(File file) {
         Scanner sc = null;
         try {
             sc = new Scanner(file);
@@ -43,23 +45,22 @@ public class EdgeWeightedGraph {
         while (sc.hasNextLine()) {
             String data = sc.nextLine();
             String[] c = data.split(" ");
-            addEdge(new Edge(parseInt(c[0]), parseInt(c[1]), parseDouble(c[2])));
+            addEdge(new EdgeDirected(parseInt(c[0]), parseInt(c[1]), parseDouble(c[2])));
         }
     }
 
-    public void addEdge(Edge e) {
-        int v = e.either();
-        int w = e.other(v);
+    public void addEdge(EdgeDirected e) {
+        int v = e.from();
+        int w = e.to();
         edges[v].add(e);
-        edges[w].add(e);
         edgeCount++;
     }
 
-    public Iterable<Edge> adj(int v) {
+    public Iterable<EdgeDirected> adj(int v) {
         return edges[v];
     }
 
-    public Iterable<Edge> edges() {
+    public Iterable<EdgeDirected> edges() {
         return Arrays.stream(edges).flatMap(List::stream).collect(Collectors.toList());
     }
 
